@@ -1,0 +1,179 @@
+<style>
+    .main-container{
+        margin:0px;
+        padding:0px;
+    }
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background:crimson;
+        width:100%;
+        height:60px;
+        border:1px solid wheat;
+        padding:5px;  
+    }
+    .header-container>img{
+        width:50px;
+        height:50px;
+        border-radius: 20px;
+    }
+    .header-container>a{
+        text-decoration: none;
+        font-size:30px;
+        color:white;
+    }
+    .nav-container{
+        
+        text-align: center;
+        background:violet;
+        width:100%;
+        margin:5px;
+        height:70px;
+        border:1px solid black;
+        padding:10px;
+
+    }
+    .nav-container>ul{
+        list-style:none;
+    }
+    .nav-container>ul>li{
+        display:inline-block;
+        padding:5px;
+    
+    }
+    .nav-container>ul>li>a{
+        text-decoration:none;
+        font-size:30px;
+        color:black;
+        text-shadow: 5px 5px 5px black;
+        padding:20px;
+    }
+    .body-container{
+        margin:0px;
+        padding:0px;
+    
+    }
+    .cart-container{
+        width:100%;
+        height:90vh;
+        
+        
+    }
+    .left-container{
+        width:65%;
+        height:600px;
+        border:1px solid black;
+        padding:5px;
+        margin:5px;
+        float:left;
+    }
+    .layout{
+        width:250px;
+        height:250px;
+        border:1px solid black;
+        margin:5px;
+        padding:5px;
+        background:burlywood;
+        float:left;
+    }
+    .layout>div{
+        font-size:50px;
+        text-align: center;
+        margin-top: 100px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 5px 5px 5px black;
+
+
+        
+        
+    }
+    .right-container{
+        width:30%;
+        height:600px;
+        border:1px solid black;
+        background: burlywood;
+        margin:5px;
+        padding:5px;
+        float:left;
+    }
+    .right-container>div{
+        font-size:30px;
+        text-align: center;
+        margin-top: 300px;
+        text-shadow: 5px 5px 5px black;
+    }
+    @media only screen and (max-width:1200px) and (min-width:800px){
+        .layout{
+            background: greenyellow;
+        }
+        .right-container{
+            background: greenyellow;
+        }
+    }
+    @media only screen and (max-width:799px){
+        .layout{
+            background: red;
+        }
+        .right-container{
+            background: red;
+        }
+    }
+    @media only screen and (max-width:600px) and (min-width:300px){
+        .layout{
+            background:blue;
+        }
+        .right-container{
+            background:blue;
+        }
+    }
+
+
+    
+
+
+</style>
+
+
+
+
+<div class ="main-container">
+    <div class ="header-container">
+        <img src ="fruit2.jpg">
+        <a href ="Sign-in.html">Sign-in</a>
+
+    </div>
+    <div class ="nav-container">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Home.html">Log-in</a></li>
+            <li><a href="Home.html">About</a></li>
+        </ul>
+    </div>
+    <div class ="body-container">
+        <div class ="cart-container">
+            <div class ="left-container">
+                <div class ="layout">
+                    <div>A</div>
+                </div>
+                <div class ="layout">
+                        <div>B</div>
+                    </div>
+                    <div class ="layout">
+                            <div>C</div>
+                        </div>
+                        <div class ="layout">
+                                <div>D</div>
+                            </div>    
+
+            </div>
+            <div class ="right-container">
+                <div>Hello Hemanth</div>
+
+            </div>
+        </div>
+        <div class ="footer">
+
+        </div>
+    </div>
+</div>
