@@ -1,0 +1,281 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    img{
+        width:50px;
+        height:50px;
+        border-radius:5px;
+    }
+    .uvw{
+        border-top:1px solid lavender;
+        
+        
+        
+    }
+    .xyz{
+        border-bottom: 1px solid lavender;
+    }
+    .klm{
+        border:1px solid lavender;
+    padding:20px;
+    }
+    
+    
+</style>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            
+                <div class=" d-flex flex-column justify-content-center align-items-center">
+                    <img src="boot.jpg">
+                    <h3>Checkout Form</h3>
+                    <P>
+                                                 Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+                    </P>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h3>Billing-form</h3>
+        <div class="row">
+            <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                  <label>firstname</label>
+                                  <input  class="form-control"type="text">
+                                  
+                                </div>
+                           
+                            </div>
+                            <div class="col-md-6 ">
+                                    <div class="form-group">
+                                    <label>firstname</label>
+                                    <input  class="form-control"type="text">
+                                    
+                                  </div>
+                             
+                            </div>
+                            <div class="col-md-12">
+                                <label>username</label>
+                                    <div class="input-group ">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text">@</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                          </div>
+                            </div>
+                            <div class="col-md-12">
+                                    <label>Email(optional)</label>
+                                        <div class="form-group">
+                                            <input type="text"class="form-control" placeholder="you@gmail.com">
+                                        </div>
+                                </div>
+                                <div class="col-md-12">
+                                        <label>Address</label>
+                                            <div class="form-group">
+                                                <input type="text"class="form-control" placeholder="1-32 pedakakani">
+                                            </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                            <label>Address2(optional)</label>
+                                                <div class="form-group">
+                                                    <input type="text"class="form-control" placeholder="2-41 chinnaparimi">
+                                                </div>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>country</label>
+                                                <select class="form-control custom-select">
+                                                    
+                                                        <option>chose</option>
+                                                        <option>india</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>State</label>
+                                                    <select class="form-control custom-select">
+                                                        
+                                                            <option>chose</option>
+                                                            <option>Telangana</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 abc">
+                                                    <div class="form-group">
+                                                        <label>Zip</label>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mt-2 uvw">
+                                                    
+                                                                <div class="form-check mt-2 ">
+                                                                        <input class="form-check-input" type="checkbox" >
+                                                                        <label>
+                                                                          shipping adderes is same as my billing adderss
+                                                                        </label>
+                                                                      </div>
+                                                                      
+                                                                            <div class="form-check xyz mb-2 ">
+                                                                                    <input class="form-check-input" type="checkbox" >
+                                                                                    <label>
+                                                                                      save this information for the next time
+                                                                                    </label>
+                                                                                  </div>
+                                                        
+                                                    
+                                                </div>
+                                                <div class="col-md-12">
+                                                <h4>payments</h4>
+                                                   
+                                                
+                                                        <div class="custom-control custom-radio">
+                                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio1">Debitcard</label>
+                                                              </div>
+                                                              <div class="custom-control custom-radio">
+                                                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio2">Creditcard</label>
+                                                              </div>
+                                                              <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                                                    <label class="custom-control-label" for="customRadio3">pay pal</label>
+                                                                  </div>
+                                                              
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <label>Name of the card</label>
+                                                            <div class="form-group">
+                                                                <input class="form-control" type="text">
+                                                                <small>Full name as displayed on card</small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                                <label>card number</label>
+                                                                <div class="form-group">
+                                                                    <input class="form-control" type="text">
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="row">
+                                                            <div class="col-md-4">
+                                                                <label>Expiration</label>
+                                                                <div class="form-group">
+                                                                    <input class="form-control" type="text">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                    <label>CVV</label>
+                                                                    <div class="form-group">
+                                                                        <input class="form-control" type="text">
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <button class="btn btn-block btn-primary">continue to view</button>
+                                                    
+            </div>
+            
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-row justify-content-around  align-item-center">
+                        <h6>your cart 
+
+                            </h6>
+                            <span class="badge badge-secondary ">3</span>
+                </div>
+                <div class="d-flex flex-row justify-content-around align-item-center mt-2 klm">
+                        <div class="d-flex flex-column"> 
+                    <h6>first-item
+                                
+
+                            </h6>
+                            <small>breif description</small>
+                            </div>
+                            
+                            <span >$12</span>
+                            
+                </div>
+                <div class="d-flex flex-row justify-content-around align-item-center klm">
+                        <div class="d-flex flex-column"> 
+                    <h6>second- item
+
+                            </h6>
+                            <small>breif description</small>
+                            </div>
+                            <span >$12</span>
+                </div>
+                <div class="d-flex flex-row justify-content-around align-item-center klm">
+                     <div class="d-flex flex-column">  
+                    <h6>third-item 
+                            
+
+                            </h6>
+                            <small>breif description</small>
+                            </div>
+                            
+                            <span >$12</span>
+                            
+                </div>
+                <div class="d-flex flex-row justify-content-around align-item-center klm text-success bg-gray">
+                        
+                        <div class="d-flex flex-column"> 
+                            <h6>promo code
+
+                            </h6>
+                            <small>breif description</small>
+                            </div>
+                            <span >$12</span>
+                            
+                </div>
+                <div class="d-flex flex-row justify-content-around align-item-center klm">
+                        <h6>Total(USD)
+
+                            </h6>
+                            <span >$20</span>
+                </div>
+                
+                        <div class="input-group mt-2 klm">
+                                <input type="text" class="form-control" >
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-success" type="button" id="button-addon2">Button</button>
+                                </div>
+                              </div>
+                
+                
+
+                
+
+            </div>
+                    
+        </div>
+</div>                                                        
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                                    
+                                           
+                            
+
+                                    
+                                          
+                                  
+                              
+                       
+                    
+            
+        
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
