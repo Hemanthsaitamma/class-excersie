@@ -1,0 +1,26 @@
+<script>
+    
+    function datatype(input){
+        var data=typeof input;
+        if(data=="string"){
+            console.log(input +' is string');
+        }
+        else if(data=="boolean"){
+            console.log(input+' is boolean');
+
+        }
+        else if(data=="number"){
+            console.log(input+' is number');
+        }
+        else if (data=="object"){
+            console.log('given input is object');
+        }
+
+        
+
+
+    }
+
+    datatype({'id':100});
+
+</script>
