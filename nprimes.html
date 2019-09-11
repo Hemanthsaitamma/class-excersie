@@ -1,0 +1,19 @@
+<button onclick="NprimeNumbers()" style="background: chartreuse;color:purple;border: 1px solid black;width:200px;height: 50px; margin-left: 500px;margin-top: 100px;font-size: 20px;"> click here</button>
+<script>
+    function NprimeNumbers(){
+        var x=prompt();
+        for(var i=1;i<=x;i++){
+            var count=0;
+            for(var j=1;j<=i;j++){
+                if(i%j==0){
+                    count++;
+                }
+            }
+            if(count==2){
+                console.log(i);
+            }
+        }
+
+    }
+
+</script>

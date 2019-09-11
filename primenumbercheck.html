@@ -1,0 +1,21 @@
+<button onclick="primeNumbers()" style="background: chartreuse;color:purple;border: 1px solid black;width:200px;height: 50px; margin-left: 500px;margin-top: 100px;font-size: 20px;"> click here</button>
+<script>
+    function primeNumbers(){
+        var x=prompt();
+        for(var i=2;i<=x;i++){
+            if(x%i==0){
+                break;
+            }
+        }
+        if(x==i){
+            console.log(x+ 'is prime');
+        }
+        else{
+            console.log(x+ 'is not prime')
+        }
+       
+        
+
+    }
+
+</script>
