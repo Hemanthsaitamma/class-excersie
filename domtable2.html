@@ -1,0 +1,31 @@
+<table>
+    <thead>
+        <tr>
+            <th>sid</th>
+            <th>sname</th>
+            <th>sper</th>
+        </tr>
+    </thead>
+    <tbody id="row">
+
+    </tbody>
+</table>
+
+<button onclick="tableRow()" style="width:200px;display:block;height: 50px;background: brown;color:black;font-size: 30px;border: 1px solid wheat;margin-top:100px;margin-left:500px">clickhere</button>
+<script>
+    var counter=0;
+    function tableRow(){
+        var sno=counter+1;
+        
+        var name=counter+'ram';
+        var total=counter+80;
+        var trelem="<tr>"+
+        "<td>"+sno+"</td>"+
+        "<td>"+name+"</td>"+
+        "<td>"+total+"</td>"+
+        "</tr>";
+        counter=counter+1;
+        document.getElementById("row").innerHTML+=trelem;
+    }
+
+</script>
